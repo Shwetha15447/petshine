@@ -1,0 +1,122 @@
+/* Apply the background image to the body element */
+body {
+  /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+  background: url('labbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 130vh;
+
+
+}
+.h11{
+   font-size: 50px;
+   font-family: "Comic Sans MS", cursive;
+   color:white;
+ }
+ .food {
+   /* Set the size of the box */
+   width: 1000px;
+   height: 70px;
+   /* Add a background color to the box */
+   background-color: #f2f2f2;
+   /* Add a border with a color, width, and style */
+   border: 2px solid #333;
+   /* Add a box shadow for a 3D effect */
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+   /* Optional: Center the content horizontally and vertically */
+
+   /* Absolute positioning */
+   position: relative;
+     /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+   top: 10px;
+   left: 30px;
+   border-radius: 20px;
+
+ }
+
+ .food p{
+   font-family: "Comic Sans MS", cursive;
+ }
+
+
+
+ .food1 {
+   /* Set the size of the box */
+   width: 500px;
+   height: 320px;
+   /* Add a background color to the box */
+   background-color: #f2f2f2;
+   /* Add a border with a color, width, and style */
+   border: 2px solid #333;
+   /* Add a box shadow for a 3D effect */
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+   /* Optional: Center the content horizontally and vertically */
+
+   /* Absolute positioning */
+   position: relative;
+     /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+   top: 50px;
+   left: 30px;
+   border-radius: 20px;
+
+ }
+.food1 p{
+  font-family: "Comic Sans MS", cursive;
+}
+.food1 li{
+  font-family: "Comic Sans MS", cursive;
+}
+
+
+.container {
+  display: flex; /* Use flexbox layout for easy alignment */
+}
+
+
+
+
+.food, .food1 {
+  padding: 20px;
+  /* Add some margin to create space between the boxes */
+  margin-right: 20px; /* Adjust this value to control the space */
+}
+
+/* Remove the margin from the last box to avoid extra space at the end */
+.box1 {
+  margin-right: 0;
+}
+
+
+.custom-button {
+  /* Basic button styles */
+
+font-family: "Comic Sans MS", cursive;
+  padding: 10px 20px;
+  background-color:white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  bottom:0px;
+}
+
+/* Hover effect */
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
+/* Active effect */
+.custom-button:active {
+  background-color: #21618c;
+}
+
+
+.custom{
+  position: fixed;
+  bottom: 0px; /* Adjust the distance from the bottom as needed */
+  left: 100px;
+  transform: translateX(-50%);
+}

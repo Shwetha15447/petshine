@@ -1,0 +1,98 @@
+body {
+    /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+    background: url('huskbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130vh;
+
+
+  }
+  .h11{
+     font-size: 50px;
+     font-family: "Comic Sans MS", cursive;
+     color:white;
+   }
+
+  .custom-button {
+    /* Basic button styles */
+
+  font-family: "Comic Sans MS", cursive;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    bottom:0px;
+  }
+
+  /* Hover effect */
+  .custom-button:hover {
+    background-color: #2980b9;
+  }
+
+  /* Active effect */
+  .custom-button:active {
+    background-color: #21618c;
+  }
+
+
+  .custom{
+    position: fixed;
+    bottom: 0px; /* Adjust the distance from the bottom as needed */
+    left: 100px;
+    transform: translateX(-50%);
+  }
+
+
+  .exercise {
+    /* Set the size of the box */
+    width: 990px;
+    height: 75px;
+    /* Add a background color to the box */
+    background-color: #f2f2f2;
+    /* Add a border with a color, width, and style */
+    border: 2px solid #333;
+    /* Add a box shadow for a 3D effect */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    /* Optional: Center the content horizontally and vertically */
+
+    /* Absolute positioning */
+    position: relative;
+      /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+    top: 10px;
+    left: 30px;
+    border-radius: 20px;
+
+  }
+  .exercise p{
+    font-family: "Comic Sans MS", cursive;
+  }
+
+
+  .exercise1{
+    /* Set the size of the box */
+    width: 1000px;
+    height: 440px;
+    /* Add a background color to the box */
+    background-color: #f2f2f2;
+    /* Add a border with a color, width, and style */
+    border: 2px solid #333;
+    /* Add a box shadow for a 3D effect */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    /* Optional: Center the content horizontally and vertically */
+
+    /* Absolute positioning */
+    position: relative;
+      /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+    top: 10px;
+    left: 30px;
+    border-radius: 20px;
+  }
+
+  .exercise1 li{
+    font-family: "Comic Sans MS", cursive;
+  }

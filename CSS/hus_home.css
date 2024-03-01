@@ -1,0 +1,187 @@
+/* Global styles for the webpage */
+body {
+  /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+  background: url('huskbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 130vh;
+  }
+
+
+
+  /* Styling for the video container */
+  .video-container {
+    align-items: center;
+
+    width: 480px;
+    height: 270px;
+    /* Add a background color to the box */
+    background-color: #f2f2f2;
+    /* Add a border with a color, width, and style */
+    border: 0px;
+    /* Add a box shadow for a 3D effect */
+    box-shadow: 40px 20px 20px rgba(0, 0, 0, 0.2);
+    /* Optional: Center the content horizontally and vertically */
+
+    /* Absolute positioning */
+    position: absolute;
+      /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+    bottom:400px;
+    left: 700px;
+    border-radius: 20px;
+
+  }
+
+  /* Additional styles for colorful box frame */
+  .video-container video {
+    border-radius: 20px;
+    width: 480px;
+    align-content: right;
+    height: 270px;
+     /* Rounded corners for the frame */
+    display: block;
+    margin: 0 auto; /* Center the video within the container */
+  }
+
+
+
+
+  .icon {
+    width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the element circular */
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Clip the image to the circular shape */
+  }
+
+  .icon img {
+    /* Set the image to fill the circular area completely without distortion */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    /* Ensure the image keeps its aspect ratio while fitting entirely inside the circle */
+    object-fit: contain;
+  }
+
+  /* Optional: Add a border and shadow to give it a more icon-like appearance */
+  .icon {
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Optional: Style the link to remove underline and change cursor on hover */
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Optional: Change the cursor style on hover */
+  a:hover {
+    cursor: pointer;
+  }
+  .space {
+
+    border-collapse: separate;
+    border-spacing: 40px; /* Adjust the value as needed for desired spacing */
+    position: relative;
+    bottom: 0;
+    top:200px;
+    left:10px; /* Optional: You can adjust this to align the table to the left */
+
+    /* Optional: You can adjust this to align the table to the right */
+  }
+
+
+  /* Styling for the content box */
+  .about {
+    /* Set the size of the box */
+    width: 500px;
+    height: 340px;
+    /* Add a background color to the box */
+    background-color: #f2f2f2;
+    /* Add a border with a color, width, and style */
+    border: 2px solid #333;
+    /* Add a box shadow for a 3D effect */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    /* Optional: Center the content horizontally and vertically */
+
+    /* Absolute positioning */
+    position: relative;
+      /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+    top: 160px;
+    left: 80px;
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+
+  }
+  .custom{
+    position: fixed;
+    bottom: 0px; /* Adjust the distance from the bottom as needed */
+    left: 100px;
+    transform: translateX(-50%);
+  }
+  .custom-button {
+    /* Basic button styles */
+
+  font-family: "Comic Sans MS", cursive;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    bottom:0px;
+  }
+
+  /* Hover effect */
+  .custom-button:hover {
+    background-color: #2980b9;
+  }
+
+  /* Active effect */
+  .custom-button:active {
+    background-color: #21618c;
+  }
+
+
+
+   .text-container {
+    top:380px;
+    left: -300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set the color of the text */
+    z-index: 1; /* Place the text above the video */
+  }
+
+  .text-container h1 {
+    font-size: 3rem; /* Adjust the font size of the heading */
+    margin-bottom: 20px; /* Add some spacing between the heading and paragraph */
+  }
+
+
+  .tc1 {
+    top:10px;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set the color of the text */
+    z-index: 1; /* Place the text above the video */
+    width: 100%;
+    height: 200px; /* Adjust the height of the background strip */
+    background-color: rgba(128, 128, 128, 0.7); /* Adjust the background color and transparency */
+
+
+  }
+
+  .tc1 h1 {
+    font-size: 100px;
+    font-family: "Comic Sans MS", cursive;
+    margin-bottom: 20px; /* Add some spacing between the heading and paragraph */
+  }

@@ -1,0 +1,173 @@
+/* Global styles for the webpage */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Styling for the video container */
+.video-container {
+  align-items: center;
+
+  width: 496px;
+  height: 300px;
+  /* Add a background color to the box */
+  background-color: #f2f2f2;
+  /* Add a border with a color, width, and style */
+  border: 0px;
+  /* Add a box shadow for a 3D effect */
+  box-shadow: 40px 20px 20px rgba(0, 0, 0, 0.2);
+  /* Optional: Center the content horizontally and vertically */
+
+  /* Absolute positioning */
+  position: absolute;
+    /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+  bottom:400px;
+  left: 700px;
+  border-radius: 20px;
+
+}
+
+/* Additional styles for colorful box frame */
+.video-container video {
+  border-radius: 20px;
+  width: 480px;
+  align-content: right;
+  height: 270px;
+   /* Rounded corners for the frame */
+  display: block;
+  margin: 0 auto; /* Center the video within the container */
+}
+
+
+
+
+
+.icon {
+  width: 150px; /* Adjust the width and height as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the element circular */
+
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Clip the image to the circular shape */
+}
+
+.icon img {
+  /* Set the image to fill the circular area completely without distortion */
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  /* Ensure the image keeps its aspect ratio while fitting entirely inside the circle */
+  object-fit: contain;
+}
+
+/* Optional: Add a border and shadow to give it a more icon-like appearance */
+.icon {
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Style the link to remove underline and change cursor on hover */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Optional: Change the cursor style on hover */
+a:hover {
+  cursor: pointer;
+}
+.space {
+
+  border-collapse: separate;
+  border-spacing: 40px; /* Adjust the value as needed for desired spacing */
+  position: absolute;
+  bottom: 0;
+  top:430px;
+  left:-650px; /* Optional: You can adjust this to align the table to the left */
+
+  /* Optional: You can adjust this to align the table to the right */
+}
+
+
+/* Styling for the content box */
+.about {
+  /* Set the size of the box */
+  width: 550px;
+  height: 320px;
+  /* Add a background color to the box */
+  background-color: #f2f2f2;
+  /* Add a border with a color, width, and style */
+  border: 2px solid #333;
+  /* Add a box shadow for a 3D effect */
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+  /* Optional: Center the content horizontally and vertically */
+
+  /* Absolute positioning */
+  position: relative;
+    /* Example: Position the box 100 pixels from the top and 50 pixels from the left of its containing block */
+  top: 130px;
+  left: 80px;
+  border-radius: 20px;
+
+
+
+    font-family: "Comic Sans MS", cursive;
+
+
+
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 128vh; /* Set the video background height to fill the viewport */
+  overflow: hidden; /* Hide overflow to prevent scrollbar when video overflows */
+}
+
+/* Styling for the video */
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make the video cover the entire container without distortion */
+}
+
+.video-background .text-container {
+  top:390px;
+  left: -300px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Set the color of the text */
+  z-index: 1; /* Place the text above the video */
+}
+
+.video-background .text-container h1 {
+  font-size: 3rem; /* Adjust the font size of the heading */
+  margin-bottom: 25px; /* Add some spacing between the heading and paragraph */
+}
+
+
+.video-background .tc1 {
+  top:10px;
+  left: 50%;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Set the color of the text */
+  z-index: 1; /* Place the text above the video */
+  width: 100%;
+  height: 200px; /* Adjust the height of the background strip */
+  background-color: rgba(128, 128, 128, 0.7); /* Adjust the background color and transparency */
+
+
+}
+
+.video-background .tc1 h1 {
+  font-size: 100px;
+  font-family: "Comic Sans MS", cursive;
+  margin-bottom: 20px; /* Add some spacing between the heading and paragraph */
+}
